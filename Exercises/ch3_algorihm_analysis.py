@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Sat Apr  9 11:03:13 2022
 
@@ -31,8 +30,6 @@ import pandas as pd
 # plt.ylabel('logy')
 # Create a legend
 # plt.legend()
-"""DOĞRU MU ??"""
-
 
 # R-3.5-Explain why the plot of the function nc is a straight line with slope c on a
 # log-log scale.
