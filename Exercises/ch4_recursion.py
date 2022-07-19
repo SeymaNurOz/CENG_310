@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Mon Apr 11 11:33:08 2022
 
@@ -84,7 +83,7 @@ print(sub_sets([1,2,3,4,5],3))
 # C-4.17 Write a short recursive Python function that determines if a string s is a
 # palindrome, that is, it is equal to its reverse. For example, racecar and
 # gohangasalamiimalasagnahog are palindromes.
-# RECURSIVE OLMADI -BOSVERR -LOOP YERINE İÇ İÇE YAP-TMM
+
 def palindrome(str_1):
     rt=True
     # for i in range(len(str_1)//2+1):
@@ -141,17 +140,6 @@ def find_subfolders(path_1):
         # find_subfolders("r"+str(path_2))
 find_subfolders(r"C:/Users/seyma/Desktop/ladybug-tools-1-4-0")
     
-    
-# 3 def disk usage(path):
-# 4 ”””Return the number of bytes used by a file/folder and any descendents.”””
-# 5 total = os.path.getsize(path) # account for direct usage
-# 6 if os.path.isdir(path): # if this is a directory,
-# 7 for filename in os.listdir(path): # then for each child:
-# 8 childpath = os.path.join(path, filename) # compose full path to child
-# 9 total += disk usage(childpath) # add child’s usage to total
-# 10
-# 11 print ( {0:<7} .format(total), path) # descriptive output (optional)
-# 12 return total
 
     
         
