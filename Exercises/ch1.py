@@ -1,8 +1,5 @@
-"""Chapter 1. Python Primer
-R-1.2 tek satır if else
-C-1.13/17-yield
-C-1.19/25 alfabe-noktalama işaretleri
-"""
+#Chapter 1. Python Primer
+
 
 # R-1.1 Write a short Python function, is multiple(n, m), that takes two integer
 # values and returns True if n is a multiple of m, that is, n = mi for some
@@ -151,11 +148,7 @@ def find_index(list1,index):
 liste=[0,1,2,3,4,5,6]
 find_index(liste,7)
 
-# C-1.25 Write a short Python function that takes a string s, representing a sentence,
-# and returns a copy of the string with all punctuation removed. For example, if given the string 
-# "Let s try, Mike.", this function would return
-# "Lets try Mike"
-"????"
+
 
 # P-1.29 Write a Python program that outputs all possible strings formed by using
 # the characters c , a , t , d , o , and g exactly once.
