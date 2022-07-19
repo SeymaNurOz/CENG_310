@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Tue Apr 12 23:05:16 2022
 
@@ -92,7 +91,7 @@ class myCaesarCipher:
 
 if __name__ == "__main__" :
     cipher = myCaesarCipher(3)
-    message = "Bugün kritik almalıyım."
+    message = "My message xxxyy."
     coded = cipher.encrypt(message)
     print(" Secret:" , coded)
     answer = cipher.decrypt(coded)
