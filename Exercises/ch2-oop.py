@@ -26,8 +26,6 @@ Y=Rose()
 print(X._price)
 print(X._n_petals)
 print(Y._n_petals)
-"""
-_price olunca gizli olmuyor muydu??"""
 
 # R-2.5 Use the techniques of Section 1.7 to revise the charge and make payment
 # methods of the CreditCard class to ensure that the caller sends a number
@@ -192,7 +190,6 @@ y=absProgression()
 y.print_progression(15)
 z=sqrProgression(6.47)
 z.print_progression(5)
-"""NESTED CLASSLARI SOR BURADAN"""
 
 
 
