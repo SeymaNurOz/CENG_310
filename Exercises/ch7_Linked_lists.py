@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Fri Jun  3 10:32:55 2022
 
@@ -11,7 +10,7 @@ def count_nodes(c_l):
     pass
     # count=0
     # starting_node=c_l.
-    #len function varmış niye tek tek sayaım ki 
+    #len function varmış niye tek tek sayayım ki 
     #ama olmasaydı referenace node ile başlayıp tekrar aynı node a gelene kadar sayardık
 
 
@@ -56,9 +55,6 @@ class LinkedList:
         return tail
 
     def print_contents(self):
-        '''
-		Do not touch to this print function this function prints the contents of the Linked List
-		'''
         format_str = "%s" #if self.taskNo == 1 else "%d"
         if self.size == 0:
             print(" ")
@@ -159,9 +155,6 @@ class DoublyLinkedBase:
         return element
     
     def print_contents(self):
-        '''
-		Do not touch to this print function this function prints the contents of the Linked List
-		'''
         format_str = "%s" 
 
         current = self.header
