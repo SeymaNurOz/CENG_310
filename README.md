@@ -160,7 +160,7 @@ In Figure 1 you can see an example grid structure. In this grid, start position 
 
 3.3 Sample I/O
 Input:
->>> pathFinder([[1,1,1,0,1],\n
+\> pathFinder([[1,1,1,0,1],\n
 [1,1,0,0,1],
 [1,0,1,1,1],
 [1,0,0,1,0],
@@ -168,7 +168,7 @@ Input:
 
 Output:
 [2,2] \n
-[2,3] /n
+[2,3]
 [3,3]
 [4,3]
 [4,2]
