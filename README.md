@@ -3,7 +3,7 @@ Algorithms and  Data Structures in Python/ 2021-2022 Spring
 
 **Textbook** Goodrich, Tamassia and Goldwasser, Data Structures and Algorithms in Python, Wiley, 2013
 
-# PA1:
+## PA1:
 
 **Task1**
 A stone is attached to a string and rotated with the help of the string in a horizontal circle of radius. In
@@ -14,39 +14,42 @@ to the string. You can use the following formula to calculate the tension in the
 Tension = m ∗ v^2/r 
 
 Specifications:
-• The arguments will be in the following order: weight (float), speed (float) and radius (float).
-• The return value will be a float.
-• You cannot use conditional statements, loops, etc.
-• Your function must have the same name and must preserve the order of arguments for us to grade
+- The arguments will be in the following order: weight (float), speed (float) and radius (float).
+- The return value will be a float.
+- You cannot use conditional statements, loops, etc.
+- Your function must have the same name and must preserve the order of arguments for us to grade
 without any trouble
 
 Sample Input:
-">>>" tensionCalculator(3.0, 5.0, 2.0)
+> tensionCalculator(3.0, 5.0, 2.0)
 
 Sample Output:
 37.5
 
-*Task 2*
+**Task 2**
 
 In this task, you need to define a function named deleteConsecutiveSimilar(integerList) which takes list of
 lists that contains integers. In the function you need to delete consecutive lists if both lists share at least
 one common integer. This procedure should continue until there is no two consecutive lists that share a
 common element. The function should return the remaining list.
-For Example:
-If input list is [[2,5,10],[2,-1],[3]]
-The lists [2,5,10] and [2,-1] gets eliminated
-Input list becomes [[3]]
-If input list is [[2,5,10],[7,-1],[3,-1],[2,0]]
-In the first step lists [7,-1] and [3,-1] gets eliminated
-In the second step lists [2,5,10] and [2,0] gets eliminated
-Input list becomes []
-If input list is [[2,5,10],[7,-1],[3,-1],[2,0],[-5,0]]
-Input list becomes [[2,5,10]]
 
-*Task 3*
+For Example:
+- If input list is [[2,5,10],[2,-1],[3]]
+- The lists [2,5,10] and [2,-1] gets eliminated
+- Input list becomes [[3]]
+- If input list is [[2,5,10],[7,-1],[3,-1],[2,0]]
+- In the first step lists [7,-1] and [3,-1] gets eliminated
+- In the second step lists [2,5,10] and [2,0] gets eliminated
+- Input list becomes []
+- If input list is [[2,5,10],[7,-1],[3,-1],[2,0],[-5,0]]
+- Input list becomes [[2,5,10]]
+
+**Task 3**
+
 In this task, you will modify a txt file which contains information about employees. The file will consist of
 a unique ID number, Name, Surname, Job, and Age fields for each person. You will implement a function
 named modifyTxt(filename, mode, id, field, newValue) where
+
 • filename is the name of the file to be modified
 • mode is either "update" or "delete"
 • id is a unique integer value that allows you to distinguish different entries in the file
