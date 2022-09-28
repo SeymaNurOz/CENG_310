@@ -1,11 +1,11 @@
 # CENG_310
 Algorithms and  Data Structures in Python/ 2021-2022 Spring
 
-*Textbook* Goodrich, Tamassia and Goldwasser, Data Structures and Algorithms in Python, Wiley, 2013
+**Textbook** Goodrich, Tamassia and Goldwasser, Data Structures and Algorithms in Python, Wiley, 2013
 
-#PA1:
+# PA1:
 
-*Task1*
+**Task1**
 A stone is attached to a string and rotated with the help of the string in a horizontal circle of radius. In
 this task, you are given the weight of the stone (m), the speed of the string (v), and the radius of the
 horizontal circle (r) as arguments to the function tensionCalculator(m, v, r). Return the tension applied
