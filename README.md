@@ -6,6 +6,7 @@ Algorithms and  Data Structures in Python/ 2021-2022 Spring
 ## PA1:
 
 **Task1**
+
 A stone is attached to a string and rotated with the help of the string in a horizontal circle of radius. In
 this task, you are given the weight of the stone (m), the speed of the string (v), and the radius of the
 horizontal circle (r) as arguments to the function tensionCalculator(m, v, r). Return the tension applied
@@ -50,28 +51,32 @@ In this task, you will modify a txt file which contains information about employ
 a unique ID number, Name, Surname, Job, and Age fields for each person. You will implement a function
 named modifyTxt(filename, mode, id, field, newValue) where
 
-• filename is the name of the file to be modified
-• mode is either "update" or "delete"
-• id is a unique integer value that allows you to distinguish different entries in the file
-• field(optional, required only for update operation) is the field that needs to be changed
-• newValue(optional, required only for update operation) is the value that will be replaced with the
+- filename is the name of the file to be modified
+- mode is either "update" or "delete"
+- id is a unique integer value that allows you to distinguish different entries in the file
+- field(optional, required only for update operation) is the field that needs to be changed
+- newValue(optional, required only for update operation) is the value that will be replaced with the
 field’s old value
+
 When a delete is encountered you need to delete that person’s information altogether. In contrast updates
 will be done for individual fields. For Example assume we have the following "simplefile.txt" file:
-12 Ali Do˘gru Manager 25
-24 Veli Yanlı¸s Secretary 29
-30 Selami Selam Intern 20
+- 12 Ali Do˘gru Manager 25
+- 24 Veli Yanlı¸s Secretary 29
+- 30 Selami Selam Intern 20
+
 After we call
->>> modifyTxt("simplefile.txt", "update", 12, "age", 26) and
->>> modifyTxt("simplefile.txt", "delete", 30) the file becomes
-12 Ali Do˘gru Manager 26
-24 Veli Yanlı¸s Secretary 29
+> modifyTxt("simplefile.txt", "update", 12, "age", 26) and
+> modifyTxt("simplefile.txt", "delete", 30) the file becomes
+
+- 12 Ali Do˘gru Manager 26
+- 24 Veli Yanlı¸s Secretary 29
+
 Specifications:
-• Delete operation will not be called for non existent ID numbers
-• Your function does not need to return anything, however, you need to rewrite the changes into the
+- Delete operation will not be called for non existent ID numbers
+- Your function does not need to return anything, however, you need to rewrite the changes into the
 file
-• Every field of a person will be separated with a single white space character
-• Every person entry will be separated with a newline character
-• After updates you must preserve the white spaces and newlines
-• Your function must have the same name and must preserve the order of arguments for us to grade
+- Every field of a person will be separated with a single white space character
+- Every person entry will be separated with a newline character
+- After updates you must preserve the white spaces and newlines
+- Your function must have the same name and must preserve the order of arguments for us to grade
 without any trouble
