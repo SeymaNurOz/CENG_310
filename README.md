@@ -21,11 +21,13 @@ Specifications:
 without any trouble
 
 Sample Input:
->>> tensionCalculator(3.0, 5.0, 2.0)
+">>>" tensionCalculator(3.0, 5.0, 2.0)
+
 Sample Output:
 37.5
 
 *Task 2*
+
 In this task, you need to define a function named deleteConsecutiveSimilar(integerList) which takes list of
 lists that contains integers. In the function you need to delete consecutive lists if both lists share at least
 one common integer. This procedure should continue until there is no two consecutive lists that share a
