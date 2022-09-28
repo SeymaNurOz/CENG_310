@@ -22,7 +22,7 @@ Specifications:
 without any trouble
 
 Sample Input:
-> tensionCalculator(3.0, 5.0, 2.0)
+\> tensionCalculator(3.0, 5.0, 2.0)
 
 Sample Output:
 37.5
@@ -65,9 +65,9 @@ will be done for individual fields. For Example assume we have the following "si
 - 30 Selami Selam Intern 20
 
 After we call
-> modifyTxt("simplefile.txt", "update", 12, "age", 26) and
+\> modifyTxt("simplefile.txt", "update", 12, "age", 26) and
 
-> modifyTxt("simplefile.txt", "delete", 30) the file becomes
+\> modifyTxt("simplefile.txt", "delete", 30) the file becomes
 
 - 12 Ali Do˘gru Manager 26
 - 24 Veli Yanlı¸s Secretary 29
@@ -147,7 +147,7 @@ two coordinates such as [xCoord, yCoord].
 
 *3.2 Example Grid*
 
-[Ekran Alıntısı](https://user-images.githubusercontent.com/103535917/192721333-2f49fb05-dd95-45c8-9887-95c50db2ba4a.PNG)
+![Figure1](https://user-images.githubusercontent.com/103535917/192722849-dd30f8ed-7904-465d-b1e1-58c6b72b7e0a.PNG)
 
 In Figure 1 you can see an example grid structure. In this grid, start position is (2,2) and end position is
 (0,0). This grid will be given to you as:
@@ -158,27 +158,42 @@ In Figure 1 you can see an example grid structure. In this grid, start position 
 - [1,0,0,1,0],
 - [1,1,1,1,0]]
 
-3.3 Sample I/O
+*3.3 Sample I/O*
+
 Input:
-\> pathFinder([[1,1,1,0,1],\n
+
+\> pathFinder([[1,1,1,0,1],
 [1,1,0,0,1],
 [1,0,1,1,1],
 [1,0,0,1,0],
 [1,1,1,1,0]], 2, 2, 0, 0)
 
 Output:
-[2,2] \n
+
+[2,2]
+
 [2,3]
+
 [3,3]
+
 [4,3]
+
 [4,2]
+
 [4,1]
+
 [4,0]
+
 [3,0]
+
 [2,0]
-3
+
 [1,0]
+
 [1,1]
+
 [0,1]
+
 [0,0]
+
 Notice how the ordering of the moves impacts the solution.
