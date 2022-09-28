@@ -3,7 +3,7 @@ Algorithms and  Data Structures in Python/ 2021-2022 Spring
 
 **Textbook** Goodrich, Tamassia and Goldwasser, Data Structures and Algorithms in Python, Wiley, 2013
 
-## PA1/
+## PA1/Python Practice
 
 **Task1**
 
@@ -82,7 +82,7 @@ file
 - Your function must have the same name and must preserve the order of arguments for us to grade
 without any trouble
 
-##PA2/ Stacks and Queues
+## PA2/ Stacks and Queues
 
 **1 Implementation of Stack**
 
@@ -92,7 +92,7 @@ functions. You will initialize the stack as:
 myStack = Stack()
 
 Your Stack class will have the following member functions:
-- __init__(): A function that initializes the stack object.
+- __ init__ (): A function that initializes the stack object.
 - push(element): inserts a particular element into the stack.
 - pop(): removes element from the top of the stack and returns the element.
 - top(): returns the element that is at the top of the stack without removing the element.
@@ -101,13 +101,14 @@ otherwise.
 
 
 **2 Implementation of Queue**
+
 You need to implement your queue as a class with a member variable(a container type, i.e list) and member
 functions. You will initialize the queue as:
 
 myQueue = Queue()
 
 Your Queue class will have the following member functions:
-- __init__(): A function that initializes the queue object.
+- __ init__(): A function that initializes the queue object.
 - enqueue(element): inserts a particular element into the stack.
 - dequeue(): removes element from the front of the queue and returns the element.
 - front(): returns the element that is at the front of the queue without removing the element.
@@ -138,30 +139,36 @@ the end by giving the coordinate of each visited block. You should print each po
 two coordinates such as [xCoord, yCoord].
 - You will implement a function pathFinder(grid, startX, startY, endX, endY).
 
+!!
 * startX: vertical coordinate of starting point.
 * startY: horizontal coordinate of starting point.
 * endX: vertical coordinate of ending point.
 * endY: horizontal coordinate of ending point.
 
-Figure 1: Grid Example
-3.2 Example Grid
+*3.2 Example Grid*
+
+[Ekran Alıntısı](https://user-images.githubusercontent.com/103535917/192721333-2f49fb05-dd95-45c8-9887-95c50db2ba4a.PNG)
+
 In Figure 1 you can see an example grid structure. In this grid, start position is (2,2) and end position is
 (0,0). This grid will be given to you as:
-grid = [[1,1,1,0,1],
-[1,1,0,0,1],
-[1,0,1,1,1],
-[1,0,0,1,0],
-[1,1,1,1,0]]
+
+- grid = [[1,1,1,0,1],
+- [1,1,0,0,1],
+- [1,0,1,1,1],
+- [1,0,0,1,0],
+- [1,1,1,1,0]]
+
 3.3 Sample I/O
 Input:
->>> pathFinder([[1,1,1,0,1],
+>>> pathFinder([[1,1,1,0,1],\n
 [1,1,0,0,1],
 [1,0,1,1,1],
 [1,0,0,1,0],
 [1,1,1,1,0]], 2, 2, 0, 0)
+
 Output:
-[2,2]
-[2,3]
+[2,2] \n
+[2,3] /n
 [3,3]
 [4,3]
 [4,2]
