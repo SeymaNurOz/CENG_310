@@ -201,7 +201,7 @@ Notice how the ordering of the moves impacts the solution.
 ## PA3/ Binary Search Trees, Linked Lists
 
 
-** Programming Task 1**
+**Programming Task 1**
 
 In this task, you will be given a Binary Search Tree (BST) and you will convert the BST into a Linked
 List. The items of the Linked List will be in ascending order. A sample BST an its conversion to a Linked
@@ -210,7 +210,7 @@ List can be seen below.
 ![Figure12](https://user-images.githubusercontent.com/103535917/197362078-6c2df5db-7c5f-40d3-a792-06d1b790a7bd.PNG)
 
 
-** Programming Task 2**
+**Programming Task 2**
 
 In this task, you will be given two BSTs and you need to merge them into a single BST. Depending on
 your implementation you may get different tree structures but if your merged tree is still a BST if we
